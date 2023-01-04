@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <title>Piotr Solnica</title>
+
+</head>
+
+<body class="mainPage">
+
+    <header>
+        <h1>Piotr Solnica - moja strona</h1>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation__element"><a class="navigation__link" href="#O_mnie-ogólnie">O mnie - ogólnie</a></li>
+            <li class="navigation__element"><a class="navigation__link" href="#Zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__element"><a class="navigation__link" href="#Wykształcenie">Wykształcenie </a></li>
+            <li class="navigation__element"><a class="navigation__link" href="#Powiązane_linki">Powiązane linki</a></li>
+            <li class="navigation__element"><button class="navigation__button">Włącz <span
+                        class="themeName">ciemne</span>
+                    tło</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="O_mnie-ogólnie">
+            <h2> O mnie - ogólnie </h2>
+            <p> Mam na imię Piotr. Jeszcze tylko rok dzieli mnnie od 30 urodzin. Mam jeszcze sporo do zrobienia w tym
+                czasie :) <br>
+                Trzy lata temu wziąłem ślub i mam dwuletniego synka Henia.<br> Wraz z całą rodziną mieszkamy w
+                województwie świętokrzyskim i aktualnie pracuje jako stolarz.
+            </p>
+        </section>
+
+        <section id="nowy-akapit">
+            <h2> Testowy akapit </h2>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet cumque saepe exercitationem dicta culpa
+                earum nam nostrum ab minima explicabo id quia quas ad, ea autem laudantium sunt magni aliquam!
+            </p>
+        </section>
+
+        <section id="Zainteresowania">
+            <h2> Zainteresowania </h2>
+            <p> Moją największą pasją od dzieciństwa jest <strong>piłka nożna</strong>. Trenuję 3 razy w tygodniu w
+                IV-ligowym klubie.</p>
+
+            <p> <img class="section__image"
+                    src="https://cdn.cmc-gallery.pl/static/files/gallery/180/1173478_1621194739.jpg"
+                    alt="to ja podczas strzelania bramki"></p>
+
+            <p>Oprócz tego jestem fanem innych aktywności fizycznych jak np:</p>
+            <ul class="section__list">
+                <li>pływanie</li>
+                <li>jazda na rowerze</li>
+                <li><i>snowboard</i></li>
+                <li><i>jogging</i></li>
+
+            </ul>
+
+        </section>
+
+        <section id="Wykształcenie">
+            <h2> Wykształcenie</h2>
+
+            <div class="section__tableContainer">
+
+                <table class="table">
+
+                    <tr>
+                        <th class="table__cell table__cell--header" scope="col"> Uczelnia/Szkoła</th>
+                        <th class="table__cell table__cell--header" scope="col"> Miasto</th>
+                        <th class="table__cell table__cell--header" scope="col"> Lata</th>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell ">Akademia Górniczo-Hutnicza</td>
+                        <td class="table__cell"> Kraków</td>
+                        <td class="table__cell"> 2012-2017</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">I Liceum Ogólnokształcące</td>
+                        <td class="table__cell"> Kielce</td>
+                        <td class="table__cell"> 2009-2012</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Gimnazjum im. J.Korczaka</td>
+                        <td class="table__cell" rowspan="2"> Tumlin</td>
+                        <td class="table__cell"> 2006-2009</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">Szkoła Podstawowa im. J.Korczaka</td>
+                        <td class="table__cell"> 1999-2006</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </section>
+
+        <aside id="Powiązane_linki">
+            <h2> Powiązane linki</h2>
+            <p> Klikając w poniższe linki można odwiedzić strony internetowe ukończonych przeze mnie szkół.</p>
+            <ul class="aside__list">
+                <li><a rel="noreferrer noopener" target="_blank"
+                        href="https://www.agh.edu.pl">https://www.agh.edu.pl</a></li>
+                <li><a rel="noreferrer noopener" target="_blank"
+                        href="http://zeromski.kielce.eu">http://zeromski.kielce.eu</a></li>
+                <li><a rel="noreferrer noopener" target="_blank"
+                        href="http://www.szkolatumlin.pl">http://www.szkolatumlin.pl</a></li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+    <footer class="footer">Kontakt do mnie pod adresem: <a title="e-mail" href="mailto:piotr.solnica.ps@gmail.com">
+            piotr.solnica.ps@gmail.com </a>
+    </footer>
+
+</body>
+
+</html>

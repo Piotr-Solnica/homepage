@@ -1,0 +1,15 @@
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+.section__image {
+
+    width: 400px;
+    border-radius: 15%;
+    margin: 20px;
+}
+
+.section__list {
+    list-style-type: square;
+    list-style-position: inside;
+}
