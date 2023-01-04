@@ -1,4 +1,4 @@
-console.log("dobry wieczór, miłej pracy :) Ten kod juz jest w repozytorium!");
+console.log("dobry wieczór, miłej pracy :) Ten kod juz jest w repozytorium");
 
 let button = document.querySelector(".navigation__button");
 let mainPage = document.querySelector(".mainPage");
