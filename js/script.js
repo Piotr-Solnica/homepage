@@ -1,13 +1,20 @@
-console.log("dobry wieczór, miłej pracy :) Ten kod juz jest w repozytorium");
+{
+    const welcome = () => {
+        console.log("Witam wszystkich zainteresowanych moja stroną!");
+    }
 
-let button = document.querySelector(".navigation__button");
-let mainPage = document.querySelector(".mainPage");
-let themeName = document.querySelector(".themeName");
+    const toggleBackground = () => {
+        const mainPage = document.querySelector(".mainPage");
+        const themeName = document.querySelector(".themeName");
 
-button.addEventListener("click", () => {
+        mainPage.classList.toggle("navigation__button--dark");
+        themeName.innerText = mainPage.classList.contains("navigation__button--dark") ? "jasne" : "ciemne";
+    }
 
-    mainPage.classList.toggle("navigation__button--dark");
-
-    themeName.innerText = mainPage.classList.contains("navigation__button--dark") ? "jasne" : "ciemne";
-
-});
+    const init = () => {
+        const button = document.querySelector(".navigation__button");
+        button.addEventListener("click", toggleBackground);
+    }
+    init();
+    welcome();
+}
