@@ -2,14 +2,14 @@
 .navigation {
     padding: 10px;
     border-bottom: 2px rgb(234, 181, 143) dashed; 
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .navigation__element {
-
-    display: inline-block;
     padding: 10px;
     margin: auto;
-    list-style: none;
+    flex-basis: 220px;
 }
 
 .navigation__link {
@@ -20,6 +20,7 @@
     margin: 10px;
     border-radius: 10%;
 }
+
 .navigation__button {
     background-color: rgb(142, 63, 7);
     padding: 10px;
