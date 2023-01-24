@@ -4,15 +4,15 @@
     }
 
     const toggleBackground = () => {
-        const mainPage = document.querySelector(".mainPage");
-        const themeName = document.querySelector(".themeName");
+        const mainPage = document.querySelector(".js-mainPage");
+        const themeName = document.querySelector(".js-themeName");
 
         mainPage.classList.toggle("navigation__button--dark");
-        themeName.innerText = mainPage.classList.contains("navigation__button--dark") ? "jasne" : "ciemne";
+        themeName.innerText = mainPage.classList.contains("js-navigation__button--dark") ? "jasne" : "ciemne";
     }
 
     const init = () => {
-        const button = document.querySelector(".navigation__button");
+        const button = document.querySelector(".js-navigation__button");
         button.addEventListener("click", toggleBackground);
     }
     init();
